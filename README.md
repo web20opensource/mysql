@@ -6,16 +6,14 @@ This repository contains **Dockerfile** of [MySQL](http://dev.mysql.com/) for [D
 
 ### Base Docker Image
 
-* [dockerfile/ubuntu](http://dockerfile.github.io/#/ubuntu)
+* [debian:stable]
 
 
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
 
-2. Download [automated build](https://registry.hub.docker.com/u/dockerfile/mysql/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull dockerfile/mysql`
-
-   (alternatively, you can build an image from Dockerfile: `docker build -t="dockerfile/mysql" github.com/dockerfile/mysql`)
+2. build&run
 
 
 ### Usage
