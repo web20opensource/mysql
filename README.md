@@ -13,7 +13,11 @@ This repository contains **Dockerfile** of [MySQL](http://dev.mysql.com/) for [D
 
 1. Install [Docker](https://www.docker.com/).
 
-2. build&run
+2. Download this Dockerfile into a directory named as you desire
+    mkdir mysql; cd mysql; wget https://raw.githubusercontent.com/web20opensource/mysql/master/Dockerfile
+3. build
+    docker build - < Dockerfile
+    
 
 
 ### Usage
