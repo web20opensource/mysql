@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM debian:stable
 
 # Install MySQL.
 RUN \
